@@ -34,6 +34,7 @@ export default function App() {
           value={text}
           onChangeText={setText}
         />
+        
         <TouchableOpacity style={styles.button} onPress={addTodo}>
           <Text style={styles.buttonText}>Save</Text>
         </TouchableOpacity>
